@@ -1,0 +1,71 @@
+*{
+  
+  /*Resetando as configurações*/
+    margin: 0; 
+    padding: 0; 
+    font-family: 'open_sanslight';
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+}
+
+/*Reset basico das midias*/
+
+object,
+embed,
+video,
+iframe,
+iframe['style'] { max-width:100%; height:auto; }
+img { max-width:100%; vertical-align:middle; }
+ul  { list-style:none; }
+
+/*Reset p Formulários em Todos Dispositivos*/
+fieldset{border: 0;}
+input,
+select,
+textarea{padding: 10px; width: 100%;}
+input.btn{width: auto; cursor: pointer;}
+
+/*vai ser a box de controle*/
+.container { float:left; width:100%; background-color:#e9ecf0; }
+.clear     { clear:both; }
+.fontzero  { font-size:0; }
+
+/*È uma Seção de Titulo */
+.section_title{ font-size: 1em; text-align: center; color: #333; }
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/4B0OHuXVkTjN.woff2') format('woff2'),
+         url('../fonts/gYGNbDqdCdfx.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/yRmyJj93no5b.woff2') format('woff2'),
+         url('../fonts/AKD02ve8VkAt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/WqNKoVKx7ZKt.woff2') format('woff2'),
+         url('../fonts/ITbDY95K7gpS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/IuisA49JdaPq.woff2') format('woff2'),
+         url('../fonts/fk8HfTJeNG4Y.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
