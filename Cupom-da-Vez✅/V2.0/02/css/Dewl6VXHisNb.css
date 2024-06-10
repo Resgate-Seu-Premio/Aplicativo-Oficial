@@ -1,0 +1,54 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 400px; /* Ajuste para a altura desejada */
+    margin: auto;
+}
+
+.slider .slide {
+    transition: all 0.5s ease;
+    position: absolute;
+}
+
+.slider .slide img {
+    display: block;
+}
+
+#valor-saque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 21px;
+  }
+
+.center-slide {
+    position: static;
+    opacity: 1;
+    width: 80%;
+    flex: 0 1 50%; /* O flex-grow é 0, flex-shrink é 1 e flex-basis é 50% */
+    z-index: 2;
+}
+
+.left-slide, .right-slide {
+    width: 70%; /* Imagens laterais 30% da largura do contêiner */
+    top: 40%;
+    transform: translateY(-50%) scale(0.8);
+    z-index: 1;
+    margin: -25px;
+    margin-top: 5px;
+    opacity: 0.4; /* Imagens laterais mais transparentes */
+}
+
+.left-slide {
+    left: 0;
+    z-index: 1;
+}
+
+.right-slide {
+    right: 0;
+    z-index: 1;
+}
