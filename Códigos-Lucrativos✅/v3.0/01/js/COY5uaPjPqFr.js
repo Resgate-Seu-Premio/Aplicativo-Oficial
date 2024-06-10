@@ -106,7 +106,7 @@ function showPopupB4() {
 }
 
 function redirectToSaque(utm) {
-    window.location.href = "saqueFinal.html"+utm;
+    window.location.href = "../02/index.html"+utm;
 }
 
 function showLoadingB4(utm) {

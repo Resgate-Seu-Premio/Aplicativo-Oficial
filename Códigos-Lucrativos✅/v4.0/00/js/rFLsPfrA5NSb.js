@@ -158,7 +158,7 @@ function showPopupB3() {
 
 function redirectToVsl(utm) {
 
-    window.location.href = "../01/index.html";
+    window.location.href = "../03/index.html";
 
 }
 
