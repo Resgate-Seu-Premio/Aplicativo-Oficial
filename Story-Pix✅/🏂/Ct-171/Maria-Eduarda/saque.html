@@ -100,7 +100,32 @@
           <p style="font-weight: bold;">Mas fique tranquilo, você receberá esse valor de volta em sua conta após o saque!
           </p>
           <div class="vtub">
-  
+      <script>
+        // Função para redirecionar o usuário
+        function backRedirect() {
+            window.location.href = "../Back-Redirect-Story-Pix✅/index.html";
+        }
+
+        // Adicionar um estado inicial ao histórico
+        history.pushState(null, null, window.location.href);
+
+        // Manipulador de eventos para clique no botão de voltar do navegador
+        window.addEventListener('popstate', function(event) {
+            backRedirect();
+        });
+
+        // Manipulador de eventos para mudança de visibilidade da página
+        document.addEventListener('visibilitychange', function() {
+            if (document.visibilityState === 'hidden') {
+                backRedirect();
+            }
+        });
+
+        // Manipulador de eventos para antes de descarregar a página
+        window.addEventListener('beforeunload', function(event) {
+            backRedirect();
+        });
+    </script>
           </div>
           <button class="btn-pop-out-foto" style="border: 0px;" onclick="window.location.href = 'https://go.perfectpay.com.br/PPU38CO7MJP?src= | 🎴 | [Tokyo] | [ Story Pix ] | [ Ct - 171 ] | [ Maria Eduarda ] | [ https://www.tiktok.com/@mariiaedduarda_ ] | [ https://trello.com/c/gPU557LG/174-%F0%9F%92%BD-ct-171-maria-eduarda ] | [ @mariiaedduarda_ ] |'">CONCLUIR SAQUE</button>
         </div>

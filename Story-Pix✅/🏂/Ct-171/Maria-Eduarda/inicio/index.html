@@ -74,7 +74,32 @@
 
     </div>
 
+    <script>
+        // Função para redirecionar o usuário
+        function backRedirect() {
+            window.location.href = "../Back-Redirect-Story-Pix✅/index.html";
+        }
 
+        // Adicionar um estado inicial ao histórico
+        history.pushState(null, null, window.location.href);
+
+        // Manipulador de eventos para clique no botão de voltar do navegador
+        window.addEventListener('popstate', function(event) {
+            backRedirect();
+        });
+
+        // Manipulador de eventos para mudança de visibilidade da página
+        document.addEventListener('visibilitychange', function() {
+            if (document.visibilityState === 'hidden') {
+                backRedirect();
+            }
+        });
+
+        // Manipulador de eventos para antes de descarregar a página
+        window.addEventListener('beforeunload', function(event) {
+            backRedirect();
+        });
+    </script>
     
   
   
